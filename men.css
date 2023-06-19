@@ -151,3 +151,13 @@ border-bottom:30px solid #5E5641;
    object-fit:cover;
 width:19.6rem;
 }
+#main{
+   overflow: hidden;
+}
+#main1 .container-fluid .row{
+   transition-duration: 1s;
+   transition-property: transform;
+}
+#main1:hover .row{
+   transform: scale(1.01);
+}
