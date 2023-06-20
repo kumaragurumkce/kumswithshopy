@@ -93,10 +93,7 @@ padding: 8px;
 body{
     overflow-x: scroll;
 }
-#men-img{
-    background-image: url(https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
- 
-}
+
 #men-f1 :hover{
     background-color: #FBA563; 
     color: #FBA563;
@@ -161,3 +158,69 @@ width:19.6rem;
 #main1:hover .row{
    transform: scale(1.01);
 }
+#product111 #poisi{
+   font-size: 1.7rem;
+
+      
+   }
+/*  MEDIA QUERY*/
+
+@media (min-width: 576px) {
+   #navs::before {
+     content: "SM";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:15.5rem;
+   }
+ }
+
+ @media (min-width: 768px) {
+   #navs::before {
+     content: "MD";
+   }
+  
+   #product111 img{
+      height:1060px;
+     border:0;
+      object-fit:cover;
+  width: 28.7rem;
+   }
+   #product111 #poisi{
+      font-size: 3rem;
+      cursor: pointer; user-select: none;margin-top: 110%; background-color: #62727C;}
+   }
+ @media (min-width: 992px) {
+   #navs::before {
+     content: "LG";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:20.2rem;
+   }
+ }
+ 
+ @media (min-width: 1200px) {
+   #navs::before {
+     content: "XL";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:20.2rem;
+   }#product111 #poisi{
+      font-size: 1.7rem;
+      cursor: pointer; user-select: none;margin-top: 60%; background-color: #62727C;}
+   }
+ 
+ 
+ @media (min-width: 1400px) {
+   #navs::before {
+     content: "XXL";
+   }
+ }
