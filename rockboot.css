@@ -189,20 +189,19 @@ transform: scale(1.02);
    }  
 }
 */
-
+/*
 @media only screen and (max-width: 768px) {
    #navs::before {
       content: "phone";
-    }
+    }*/
    /* For mobile phones: */
-   #product111 img{
+  /* #product111 img{
       height:470px;
      border:0;
       object-fit:cover;
    width:30.4rem;
    }
- }
-
+ }*/
 @media (min-width: 576px) {
    #navs::before {
      content: "SM";
@@ -215,16 +214,16 @@ transform: scale(1.02);
    }
  }
 
- 
  @media (min-width: 768px) {
    #navs::before {
      content: "MD";
    }
+
    #product111 img{
-      height:435px;
+      height:1060px;
      border:0;
       object-fit:cover;
-  width: 28.5rem;
+  width: 28.7rem;
    }
 
  }
@@ -233,11 +232,23 @@ transform: scale(1.02);
    #navs::before {
      content: "LG";
    }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:17.5rem;
+   }
  }
  
  @media (min-width: 1200px) {
    #navs::before {
      content: "XL";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:20.2rem;
    }
  }
  
