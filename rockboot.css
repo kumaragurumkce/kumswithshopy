@@ -227,8 +227,16 @@ transform: scale(1.02);
       object-fit:cover;
   width: 28.7rem;
    }
+   .navbar-nav{
+  padding: 5px 70px; }
+  .navbar-nav .nav-item{
+padding: 10px;
+  }
+  .navbar-nav .nav-item .nav-link{
+   font-size: 30px;
+  }
+}
 
- }
  
  @media (min-width: 992px) {
    #navs::before {
