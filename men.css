@@ -15,6 +15,11 @@ font-family: 'Yatra One', cursive;}
     z-index:100;
     background: #012030;
 }
+#secnav{
+   position: fixed;
+   top: 80px;
+   z-index: 100;
+   }
  .navbar .navbar-brand{
     color: #45C4B0;
     text-decoration: none;
