@@ -194,6 +194,17 @@ width:19.6rem;
    #product111 #poisi{
       font-size: 3rem;
       cursor: pointer; user-select: none;margin-top: 110%; background-color: #62727C;}
+      .navbar-nav{
+         padding: 5px 70px; }
+         .navbar-nav .nav-item{
+       padding: 10px;
+         }
+         .navbar-nav .nav-item .nav-link{
+          font-size: 30px;
+         }
+         #secnav{
+            top: 6.3rem;
+         }
    }
  @media (min-width: 992px) {
    #navs::before {

@@ -136,8 +136,63 @@ font-family: 'Yatra One', cursive;}
     }
     
 }
-@media (min-width: 1400px) {
-    #navs::before {
-      content: "XXL";
-    }
-  }
+
+
+
+@media (min-width: 992px) {
+   #navs::before {
+     content: "LG";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:17.5rem;
+   }
+   .navbar-nav .nav-item{
+      padding:0.313rem;
+   }
+      .navbar-nav .nav-item .nav-link{
+       font-size: 1.299rem;
+       padding:0;
+      }
+      .navbar-nav .nav-item .nav-link:hover{
+          background-color: #45C4B0;
+          border-radius: 30px;
+         color: #012030; 
+         padding:0;
+         }
+ }
+ @media (min-width: 1200px) {
+   #navs::before {
+     content: "XL";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:20.2rem;
+   }
+   .navbar-nav .nav-item{
+      padding: 2px;
+   }
+      .navbar-nav .nav-item .nav-link{
+       font-size: 1.499rem;
+       padding:0.5rem;
+      }
+      .navbar-nav .nav-item .nav-link:hover{
+         width: 100%;
+          height: 42px;
+          background-color: #45C4B0;
+          border-radius: 70px;
+         box-sizing: border-box;
+         color: #012030; 
+         padding:0.5rem;
+         }
+ }
+ 
+ @media (min-width: 1400px) {
+   #navs::before {
+     content: "XXL";
+   }
+ }
