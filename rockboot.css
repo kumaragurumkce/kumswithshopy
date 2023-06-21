@@ -8,13 +8,14 @@ right: 0;
 box-sizing: border-box;
 font-family: 'Yatra One', cursive;}
 #navs{
-    position: sticky;
+   position:sticky;
     padding: 0.5rem 5rem;
     left: 0;
     top:0;
-    z-index:100;
+    z-index: 100;    
     background: #012030;
 }
+
  .navbar .navbar-brand{
     color: #45C4B0;
     text-decoration: none;
@@ -67,6 +68,7 @@ padding: 8px;
   height:50px;
    background:#9AEBA3;
 }
+
 #collectionlisthid .nav .nav-item .nav-link
 {
    color: #13678A;
