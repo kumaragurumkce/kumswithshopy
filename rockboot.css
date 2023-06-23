@@ -16,6 +16,7 @@ font-family: 'Yatra One', cursive;}
     background: #012030;
 }
 
+
  .navbar .navbar-brand{
     color: #45C4B0;
     text-decoration: none;
@@ -50,20 +51,19 @@ font-family: 'Yatra One', cursive;}
  .formcontrol button:hover{
     background-color: #338074;
  }
-.navbar-nav .nav-item .nav-link{
-    font-size: 20px;
-    color: #45C4B0;
+ .navbar-nav .nav-item .nav-link{
+   font-size: 20px;
+   color: #45C4B0;
 }
-
 .navbar-nav .nav-item .nav-link:hover{
-width: 100%;
- height: 42px;
- background-color: #45C4B0;
- border-radius: 70px;
-box-sizing: border-box;
-color: #012030; 
-padding: 8px;
-}
+  width: 30%;
+   background-color: #45C4B0;
+   border-radius: 70px;
+  box-sizing: border-box;
+  color: #012030; 
+  padding: 2px;
+  }
+
 #collectionlisthid {
   height:50px;
    background:#9AEBA3;
@@ -215,29 +215,28 @@ transform: scale(1.02);
    width:15.5rem;
    }
  }
-
  @media (min-width: 768px) {
    #navs::before {
      content: "MD";
    }
-
    #product111 img{
       height:1060px;
      border:0;
       object-fit:cover;
   width: 28.7rem;
-   }
+   } 
    .navbar-nav{
-      padding: 5px 70px; }
+      padding: 0.5rem;
+      margin-left: 1rem;
+   }
       .navbar-nav .nav-item{
-    padding: 10px;
+    padding:0.09rem;
       }
       .navbar-nav .nav-item .nav-link{
-       font-size: 30px;
+       font-size: 1.50rem;
+       padding:0.099rem;
       }
     }
-    
- 
 @media (min-width: 992px) {
    #navs::before {
      content: "LG";

@@ -7,7 +7,6 @@ top: 0;
 right: 0;
 box-sizing: border-box;
 font-family: 'Yatra One', cursive;}
-
 #navs{
     position:sticky;
      padding: 0.5rem 5rem;
@@ -15,8 +14,7 @@ font-family: 'Yatra One', cursive;}
      top:0;
      z-index: 100;    
      background: #012030;
- }
- 
+ } 
   .navbar .navbar-brand{
      color: #45C4B0;
      text-decoration: none;
@@ -51,20 +49,20 @@ font-family: 'Yatra One', cursive;}
   .formcontrol button:hover{
      background-color: #338074;
   }
- .navbar-nav .nav-item .nav-link{
-     font-size: 20px;
-     color: #45C4B0;
- }
- 
- .navbar-nav .nav-item .nav-link:hover{
- width: 100%;
-  height: 42px;
-  background-color: #45C4B0;
-  border-radius: 70px;
- box-sizing: border-box;
- color: #012030; 
- padding: 8px;
- }
+  .navbar-nav .nav-item .nav-link{
+   font-size: 20px;
+   color: #45C4B0;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  width: 30%;
+   background-color: #45C4B0;
+   border-radius: 70px;
+  box-sizing: border-box;
+  color: #012030; 
+  padding: 2px;
+  }
+
+
  #collectionlisthid {
    height:50px;
     background:#9AEBA3;
@@ -89,7 +87,8 @@ font-family: 'Yatra One', cursive;}
          object-fit: cover;
     }
     #servicetext{
-        font-size:3rem;
+    margin-top:20px ;
+      font-size:3rem;
     }
      .text-center{
         padding: 0.5rem;
@@ -136,8 +135,19 @@ font-family: 'Yatra One', cursive;}
     }
     
 }
-
-
+@media (min-width: 768px) {
+   .navbar-nav{
+      padding: 0.5rem;
+      margin-left: 1rem;
+   }
+      .navbar-nav .nav-item{
+    padding:0.09rem;
+      }
+      .navbar-nav .nav-item .nav-link{
+       font-size: 1.50rem;
+       padding:0.099rem;
+      }
+}
 
 @media (min-width: 992px) {
    #navs::before {
@@ -176,19 +186,19 @@ font-family: 'Yatra One', cursive;}
    .navbar-nav .nav-item{
       padding: 2px;
    }
-      .navbar-nav .nav-item .nav-link{
-       font-size: 1.499rem;
-       padding:0.5rem;
-      }
-      .navbar-nav .nav-item .nav-link:hover{
-         width: 100%;
-          height: 42px;
-          background-color: #45C4B0;
-          border-radius: 70px;
-         box-sizing: border-box;
-         color: #012030; 
-         padding:0.5rem;
-         }
+   .navbar-nav .nav-item .nav-link{
+      font-size: 1.499rem;
+      padding:0.5rem;
+     }
+     .navbar-nav .nav-item .nav-link:hover{
+        width: 100%;
+         height: 42px;
+         background-color: #45C4B0;
+         border-radius: 70px;
+        box-sizing: border-box;
+        color: #012030; 
+        padding:0.5rem;
+        }
  }
  
  @media (min-width: 1400px) {
