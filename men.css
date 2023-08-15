@@ -159,11 +159,13 @@ width:19.6rem;
    transform: scale(1.01);
 }
 #product111 #poisi{
-   font-size: 1.7rem;
+   font-size: 1.7rem;  }
 
-      
-   }
-/*  MEDIA QUERY*/
+
+
+
+
+   /*  MEDIA QUERY*/
 
 @media (min-width: 576px) {
    #navs::before {
