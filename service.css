@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 
 *{margin: 0;
@@ -201,4 +202,209 @@ font-family: 'Yatra One', cursive;}
    #navs::before {
      content: "XXL";
    }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+*{margin: 0;
+padding: 0;
+left: 0;
+top: 0;
+right: 0;
+box-sizing: border-box;
+font-family: 'Yatra One', cursive;}
+#navs{
+    position:sticky;
+     padding: 0.5rem 5rem;
+     left: 0;
+     top:0;
+     z-index: 100;    
+     background: #012030;
+ } 
+  .navbar .navbar-brand{
+     color: #45C4B0;
+     text-decoration: none;
+     font-size: 35px;
+  }   
+ .navbar-light .navbar-toggler{
+    
+    border: 5px solid #338074;
+ }
+ .navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,0,0,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }
+  .formcontrol input{
+   font-size: 13px;
+   width: 100%;
+   height: 30px;
+   margin: 5px ;
+     background-color:#45C4B0;
+  }   
+  .formcontrol input:hover{
+     background-color: #338074;
+  }
+  
+  .formcontrol button{
+     width:30%;
+     height: 30px;
+     margin:5px 10px;
+     border-radius: 150px;
+     padding: 8px;
+     background-color: #45C4B0;
+  }
+  .formcontrol button:hover{
+     background-color: #338074;
+  }
+  .navbar-nav .nav-item .nav-link{
+   font-size: 20px;
+   color: #45C4B0;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  width: 30%;
+   background-color: #45C4B0;
+   border-radius: 70px;
+  box-sizing: border-box;
+  color: #012030; 
+  padding: 2px;
+  }
+
+
+ #collectionlisthid {
+   height:50px;
+    background:#9AEBA3;
+ }
+ 
+ #collectionlisthid .nav .nav-item .nav-link
+ {
+    color: #13678A;
+    font-size: 20px;
+    border-bottom: 5px solid transparent;
+ }
+ #collectionlisthid .nav .nav-item .nav-link:hover
+ {
+    color: #012030;
+    border-bottom: 3px solid gold;
+ }
+
+   section img{
+        height: 30rem;
+        width: 80%;
+        margin: 5rem;
+         object-fit: cover;
+    }
+    #servicetext{
+    margin-top:20px ;
+      font-size:3rem;
+    }
+     .text-center{
+        padding: 0.5rem;
+     }
+     div .text-center{
+     font-size:1.5rem ; 
+     }
+    ul{
+        list-style: none;
+        font-size:1.5rem;
+        padding: 0.4rem;
+        padding-top: 0;
+    }
+
+@media (max-width: 980px) {
+    section img{
+        height: 27rem;
+        width: 80%;
+        margin: 5rem;
+         object-fit: cover;
+    }
+    #servicetext{
+        font-size:7rem;
+    }
+     .text-center{
+        padding: 0.5rem;
+     }
+     ul li{
+        text-align:start;
+        font-size:3.2rem;  
+        margin-left: 10px;
+    }
+     div .text-center{
+     font-size:4rem ; 
+     }
+    ul{
+        list-style: none;
+        font-size:1.5rem;
+        padding: 0.4rem;
+        padding-top: 0;
+    }
+}
+@media (min-width: 768px) {
+   .navbar-nav{
+      padding: 0.5rem;
+      margin-left: 1rem;
+   }
+      .navbar-nav .nav-item{
+    padding:0.09rem;
+      }
+      .navbar-nav .nav-item .nav-link{
+       font-size: 1.50rem;
+       padding:0.099rem;
+      }
+}
+
+@media (min-width: 992px) {
+   #navs::before {
+     content: "LG";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:17.5rem;
+   }
+   .navbar-nav .nav-item{
+      padding:0.313rem;
+   }
+      .navbar-nav .nav-item .nav-link{
+       font-size: 1.299rem;
+       padding:0;
+      }
+      .navbar-nav .nav-item .nav-link:hover{
+          background-color: #45C4B0;
+          border-radius: 30px;
+         color: #012030; 
+         padding:0;
+         }
+ }
+ @media (min-width: 1200px) {
+   #navs::before {
+     content: "XL";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:20.2rem;
+   }
+   .navbar-nav .nav-item{
+      padding: 2px;
+   }
+   .navbar-nav .nav-item .nav-link{
+      font-size: 1.499rem;
+      padding:0.5rem;
+     }
+     .navbar-nav .nav-item .nav-link:hover{
+        width: 100%;
+         height: 42px;
+         background-color: #45C4B0;
+         border-radius: 70px;
+        box-sizing: border-box;
+        color: #012030; 
+        padding:0.5rem;
+        }
+ }
+ 
+ @media (min-width: 1400px) {
+   #navs::before {
+     content: "XXL";
+   }
+>>>>>>> b587389391ce3fab86f7f09a116d240daae32c2c
  }

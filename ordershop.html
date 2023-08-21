@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html lang="en">
 <head>
     <title>Order</title>
@@ -53,4 +54,61 @@ popup.classList.remove("open-popup");
     </script>
 </body>
 
+=======
+<html lang="en">
+<head>
+    <title>Order</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        Order
+    </header>
+
+    <main id="main">
+        <div class="input-container">
+            <input type="text" name="input-food-name" placeholder="Order your dress..." class="input-food" id="input-food">
+            <button class="input-button" id="input-btn">Save</button>
+        </div>
+        <section>
+            <div id="food-list-statistics"></div>
+            <ul id="food-container" class="food-container">
+            </ul>
+            <div id="no-list">
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-state-concept-3428212-2902554.png"
+                    alt="Not found">
+                <h3>Choose your dress</h3>
+            </div>
+        </section>
+        <div id="ordering">
+          <div class="ordercon">
+            <button id="confirm" onclick="openPopup()">Order Confirm</button>
+          </div>
+          <div class="popup" id="popup">
+   <img src="/assets/tick.png" alt="">
+   <h1 style="color: aqua;">Thank You</h1>
+   <h4 style="color: aqua;">Order has been confirmed</h4>
+   <button class="ok" onclick="closePopup()">OK</button>
+          </div>
+        </div>
+    </main>
+
+    <script src="main.js">
+let popup = document.getElementById("popup");
+function openPopup(){
+popup.classList.add("open-popup");
+}
+function closePopup(){
+popup.classList.remove("open-popup");
+}
+    </script>
+</body>
+
+>>>>>>> b587389391ce3fab86f7f09a116d240daae32c2c
 </html>
