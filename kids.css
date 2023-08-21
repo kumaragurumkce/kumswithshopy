@@ -15,6 +15,7 @@ font-family: 'Yatra One', cursive;}
     z-index:100;
     background: #012030;
 }
+
  .navbar .navbar-brand{
     color: #45C4B0;
     font-size: 35px;
@@ -49,20 +50,20 @@ font-family: 'Yatra One', cursive;}
  .formcontrol button:hover{
     background-color: #338074;
  }
-.navbar-nav .nav-item .nav-link{
-    font-size: 20px;
-    color: #45C4B0;
+ .navbar-nav .nav-item .nav-link{
+   font-size: 20px;
+   color: #45C4B0;
 }
-
 .navbar-nav .nav-item .nav-link:hover{
-width: 100%;
- height: 42px;
- background-color: #45C4B0;
- border-radius: 70px;
-box-sizing: border-box;
-color: #012030; 
-padding: 8px;
-}
+  width: 30%;
+   background-color: #45C4B0;
+   border-radius: 70px;
+  box-sizing: border-box;
+  color: #012030; 
+  padding: 2px;
+  }
+
+
 #collectionlisthid {
   height:50px;
    background:#9AEBA3;
@@ -151,3 +152,113 @@ border-bottom:30px solid #5E5641;
    object-fit:cover;
 width:19.6rem;
 }
+#main{
+   overflow: hidden;
+}
+#main1 .container-fluid .row{
+   transition-duration: 1s;
+   transition-property: transform;
+}
+#main1:hover .row{
+   transform: scale(1.01);
+}
+#product111 #poisi{
+   font-size: 1.7rem;
+
+      
+   }
+/*  MEDIA QUERY*/
+
+@media (min-width: 576px) {
+   #navs::before {
+     content: "SM";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:15.5rem;
+   }
+ }
+
+ @media (min-width: 768px) {
+   #navs::before {
+     content: "MD";
+   }
+  
+   #product111 img{
+      height:1060px;
+     border:0;
+      object-fit:cover;
+  width: 28.7rem;
+   }
+   #product111 #poisi{
+      font-size: 3rem;
+      cursor: pointer; user-select: none;margin-top: 110%; background-color: #62727C;}
+      .navbar-nav{
+         padding: 0.5rem;
+         margin-left: 1rem;
+      }
+         .navbar-nav .nav-item{
+       padding:0.09rem;
+         }
+         .navbar-nav .nav-item .nav-link{
+          font-size: 1.50rem;
+          padding:0.099rem;
+         }
+      
+      
+         #secnav{
+            top: 6.3rem;
+         }}
+ @media (min-width: 992px) {
+   #navs::before {
+     content: "LG";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:20.2rem;
+   }
+ }
+ 
+ @media (min-width: 1200px) {
+   #navs::before {
+     content: "XL";
+   }
+   #product111 img{
+      height:440px;
+     border:0;
+      object-fit:cover;
+   width:20.2rem;
+   }#product111 #poisi{
+      font-size: 1.7rem;
+      cursor: pointer; user-select: none;margin-top: 60%; background-color: #62727C;}
+      .navbar-nav .nav-item{
+         padding: 2px;
+      }
+      .navbar-nav .nav-item{
+         padding: 2px;
+      }
+         .navbar-nav .nav-item .nav-link{
+          font-size: 1.499rem;
+          padding:0.5rem;
+         }
+         .navbar-nav .nav-item .nav-link:hover{
+            width: 100%;
+             height: 42px;
+             background-color: #45C4B0;
+             border-radius: 70px;
+            box-sizing: border-box;
+            color: #012030; 
+            padding:0.5rem;
+            }
+   }
+ 
+ 
+ @media (min-width: 1400px) {
+   #navs::before {
+     content: "XXL";
+   }
+ }
